@@ -1,0 +1,242 @@
+body{
+background-color: #F3F3F3;
+}
+
+/* Это меню/шапка! */ 
+
+div.header{
+position: fixed;
+height: 112px;
+width: 100%;
+z-index: 100;
+margin-top: 0px;
+}
+
+div.hat{
+background-color: #202C2C;
+color: white;
+width: 100%;
+height: 32px;
+text-align: left;
+margin-top:0px;
+}
+
+a.vk{
+position: relative;
+display: block;
+height: 20px;
+width: 20px;
+}
+
+div.vk:hover{
+background-image: url(VKyellow20.png);
+}
+
+div.vk{
+left: 116px;
+top: -18px;
+position: relative;
+width: 20px;
+height: 20px;
+background-image: url(VKwhite20.png);
+}
+
+font.phone{
+position: relative;
+bottom: 37px;
+left: 1700px;
+}
+
+div.buttons{
+position: absolute;
+display: flex;
+top: 56px;
+left: 500px;
+height: 32px;
+width:912px;
+justify-content: space-between;
+}
+
+font.menu_main{
+color: #FFFFFF;
+font-size: 16px;
+font-family: 'risque';
+line-height: 18px;
+position: relative;
+}
+
+div.menu_main{ 
+background: #DD81F4;
+border-radius: 10px;
+width: 176px;
+height: 32px;
+color: white;
+align-items: center;
+text-align: center;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+div.menu_main:hover{ 
+background: linear-gradient(180deg, rgba(221, 129, 244, 0.92) 67.19%,
+rgba(255, 255, 255, 0.92) 100%);
+border-radius: 10px;
+width: 176px;
+height: 32px;
+color: white;
+align-items: center;
+text-align: center;
+}
+
+div.menu_main a{
+position: relative;
+display: block;
+height: 100%;
+color: white;
+text-decoration: none;
+top: 6px;
+}
+
+a.title{
+position: relative;
+top: -16px;
+left: 120px;
+color: white;
+font-size: 36px;
+text-decoration:none;
+}
+
+a.underline{ 
+position: relative;
+left: 35px;
+color: white;
+top: 13px;
+font-size: 14px;
+text-decoration:none;
+}
+
+/* Это меню/шапка! */
+
+div.banner{
+background:url(assets/banner.png) no-repeat;
+background-size: cover;
+position:relative;
+margin: auto;
+top: 144px;
+width: 70%;
+height: 280px;
+}
+
+div.star{
+position: relative;
+height: 144px;
+width: 144px;
+top:296px;
+background-image: url(Zvezda.png);
+left:104px;
+}
+
+div.news{
+position: relative;
+display: flex;
+justify-content: space-between;
+width: 60%;
+height: 176px;
+top: 130px;
+margin: auto;
+}
+
+img.new{
+width:16%;
+height: 100%;
+border: 1px solid black;
+border-radius:25px;
+}
+
+div.tovar{
+text-align: center;
+position: relative;
+background: #DD8AF5;
+border: 1px solid #555555;
+border-radius: 5px;
+width: 212px;
+height: 100%;
+color: white;
+}
+
+div.tovar a{
+display: block;
+text-decoration: none;
+position: relative;
+color: white;
+}
+
+img.over{
+width: 100%;
+height: 85%;
+border: 1px solid #555555;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+}
+
+div.tovars{
+position: relative;	
+width: 920px; 
+height: 264px; 
+margin: auto;
+display: flex;
+justify-content: space-between;
+}
+
+div.container{
+position: relative;
+top: 240px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+height: 1128px;
+}
+
+.golova{
+position: relative;
+text-align: center;
+top: 200px;
+}
+
+img.map{
+position: relative;
+top: 320px;
+left:32px;
+height: 544px;
+width: 920px;
+}
+
+div.maptext{
+position: relative;
+width: 448px;
+right: 24px;
+top: -200px;
+left: 968px;
+height: 400px;
+}
+
+div.text{
+position: relative;
+width:448px;
+height:232px;
+margin: auto;
+top: 48px;
+}
+
+img.shar{
+position: absolute;
+top: 2800px;
+width: 448px;
+height: 448px;
+}
+
+div.info{
+position:relative;
+width:50%;
+left:40%;
+top:200px;
+}
