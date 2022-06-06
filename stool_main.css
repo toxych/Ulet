@@ -126,7 +126,7 @@ text-decoration:none;
 /* Это меню/шапка! */
 
 div.banner{
-background:url(Assets/banner.png) no-repeat;
+background:url(Assets/Banner.png) no-repeat;
 background-size: cover;
 position:relative;
 margin: auto;
